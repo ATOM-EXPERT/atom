@@ -1,0 +1,28 @@
+h1{
+    background-color: blue;
+    color: White;
+}
+h2{
+    background-color: black;
+    color: blue;
+}
+h3{
+    background-color: red;
+    color: green;
+}
+h4{
+    background-color: yellow;
+    color: brown;
+}
+h5{
+    background-color: aqua;
+    color: pink;
+}
+h6{
+    background-color: gold;
+    color: red;
+}
+p{
+    background-color: violet;
+    color: gold;
+}
