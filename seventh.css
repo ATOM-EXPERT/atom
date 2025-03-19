@@ -1,0 +1,33 @@
+p{
+  font-size: 18px;
+  text-align: right;
+}
+h1{
+    font-size: 18px;
+    text-indent: 50px;
+    font-weight: lighter;
+}
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+}   
+h3{
+    font-size: 18px;
+    text-indent: 50px;
+    font-weight: lighter;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 18px;
+    text-indent: 50px;
+    font-weight: lighter;
+}
+h6{
+    font-size: 18px;
+    text-indent: 50px;
+    font-weight: lighter;
+}
