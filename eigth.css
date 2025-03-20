@@ -1,0 +1,10 @@
+h1{
+    background-image: url(Firefly\ dog\ in\ a\ sweater\ with\ a\ headset\ 94470.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: groove;
+    border-top: 10px dotted black;
+    border-right: 10px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 10px dashed red;
+}
