@@ -1,0 +1,35 @@
+label{
+    color: gray;
+    width: fit-content;
+    font-size: 18px;
+}
+form{
+    width: fit-content;
+    padding: 20px;
+    margin: 0px auto;
+    border: 20px solid blue;
+   }
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-color: blue;
+       }
+button{
+    width: 100%;
+    background: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+    p{
+        color: gray;
+    }

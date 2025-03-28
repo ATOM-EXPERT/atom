@@ -1,0 +1,38 @@
+body{
+    margin: auto;
+    background-image: url(Firefly\ dog\ in\ a\ sweater\ with\ a\ headset\ 94470.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+label{
+    color: white;
+    width: 100%;
+}
+form{
+    width: 400px;
+    padding: 20px;
+    margin: 0px auto;
+    box-shadow: inset 0px 0px 10px white;
+    backdrop-filter: -50px;
+   }
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-shadow: inset 0px 0px 10px white;
+    background: transparent;
+    margin: 5px 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+   }
+button{
+    width: 100%;
+    background: transparent;
+    box-shadow: inset 0px 0px 10px white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    }
