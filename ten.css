@@ -1,5 +1,5 @@
 label{
-    color: gray;
+    color: black;
     width: fit-content;
     font-size: 18px;
 }
@@ -11,6 +11,7 @@ form{
    }
 input{
     width: 100%;
+    margin: 2px 0px;
     padding: 10px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -22,9 +23,10 @@ button{
     border: none;
     padding: 10px;
     color: white;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 10px 0px;
+    border-radius: 2px;
     box-sizing: border-box;
+    font-family: sans-serif;
     }
     a{
         text-decoration: none;
@@ -32,4 +34,55 @@ button{
     }
     p{
         color: gray;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .ig{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 10px 20px;
+    }
+    .fir{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        margin: 10px 20px;
+    }
+    .sec{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        margin: 10px 20px;
+    }
+    .thi{
+        position: fixed;
+        bottom: 0px;
+        right: 90px;
+        margin: 10px 20px;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+    }
+    a:link{
+        background: green;
+        color: black;
+    }
+    a:hover{
+        background-color: red;
+        color: white;
+    }
+    a:active{
+        background-color: orange;
+        color: yellow;
+    }
+    a:visited{
+        background-color: brown;
+        color: blue;
     }

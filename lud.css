@@ -1,30 +1,14 @@
-h1{
-    background-color: blue;
-    color: White;
+.ola{
+    background: blue;
 }
-h2{
-    background-color: black;
-    color: blue;
+.green{
+    background: green;
 }
-h3{
-    background-color: red;
-    color: green;
-}
-h4{
+.yellow{
     background-color: yellow;
-    color: brown;
 }
-h5{
-    background-color: aqua;
-    color: pink;
-}
-h6{
-    background-color: gold;
-    color: red;
-}
-p{
-    background-color: violet;
-    color: gold;
+.red{
+    background-color: red;
 }
 a:link{
     background: green;

@@ -31,3 +31,24 @@ h6{
     text-indent: 50px;
     font-weight: lighter;
 }
+a:link{
+    background: green;
+    color: black;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+a:active{
+    background-color: orange;
+    color: yellow;
+}
+a:visited{
+    background-color: brown;
+    color: blue;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}

@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    background-image: url(Firefly\ dog\ in\ a\ sweater\ with\ a\ headset\ 94470.jpg);
+    background-image: url(dog.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,7 +14,6 @@ form{
     padding: 20px;
     margin: 0px auto;
     box-shadow: inset 0px 0px 10px white;
-    backdrop-filter: -50px;
    }
 input{
     width: 100%;
@@ -35,4 +34,25 @@ button{
     padding: 10px;
     border-radius: 20px;
     color: white;
+    }
+    a:link{
+        background: green;
+        color: black;
+    }
+    a:hover{
+        background-color: red;
+        color: white;
+    }
+    a:active{
+        background-color: orange;
+        color: yellow;
+    }
+    a:visited{
+        background-color: brown;
+        color: blue;
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
     }
