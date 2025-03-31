@@ -73,16 +73,20 @@ button{
     a:link{
         background: green;
         color: black;
+        margin: 10px 10px;
     }
     a:hover{
         background-color: red;
         color: white;
+        margin: 10px 10px;
     }
     a:active{
         background-color: orange;
         color: yellow;
+        margin: 10px 10px;
     }
     a:visited{
         background-color: brown;
         color: blue;
+        margin: 10px 10px;
     }
