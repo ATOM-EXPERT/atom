@@ -10,7 +10,7 @@
 .red{
     background-color: red;
 }
-a:link{
+/* a:link{
     background: green;
     color: black;
     margin: 10px 10px;
@@ -29,9 +29,9 @@ a:visited{
     background-color: brown;
     color: blue;
     margin: 10px 10px;
-}
+} */
 .whatsapp{
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     right: 10px;
 }

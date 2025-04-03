@@ -65,12 +65,7 @@ button{
         right: 90px;
         margin: 10px 20px;
     }
-    .whatsapp{
-        position: fixed;
-        bottom: 0px;
-        right: 10px;
-    }
-    a:link{
+    /* a:link{
         background: green;
         color: black;
         margin: 10px 10px;
@@ -89,4 +84,9 @@ button{
         background-color: brown;
         color: blue;
         margin: 10px 10px;
+    } */
+    .whatsapp{
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
     }

@@ -2,7 +2,7 @@ table{
     padding: 10px;
     border: 10px solid blue;
 }
-a:link{
+/* a:link{
     background: green;
     color: black;
     margin: 10px 10px;
@@ -21,7 +21,7 @@ a:visited{
     background-color: brown;
     color: blue;
     margin: 10px 10px;
-}
+} */
 .whatsapp{
     position: fixed;
     bottom: 0px;
