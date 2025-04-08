@@ -1,0 +1,17 @@
+table{
+    border:  groove, gold;
+    box-shadow: black;
+}
+.black{
+    background: black;
+}
+.atom{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.bad{
+    width:300px;
+    background: red;
+    margin: 5px;
+}
