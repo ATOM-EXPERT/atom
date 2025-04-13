@@ -1,0 +1,57 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.lil{
+    display: inline;
+    margin: 10px;
+}
+.nav{
+    display: flex;
+}
+.cus{
+    display: flex;
+    flex-direction: column;
+}
+.cust{
+    background: gainsboro;
+    text-align: center;
+}
+.bad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.badd{
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background: white;
+}
+.sub{
+    text-align: center;
+}
+.bold{
+    font-size: 25px;
+}
+.pil{
+    width: 250px;
+}
+button{
+    background-color: orange;
+    border: none;
+    padding: 5px;
+}
+.in{
+    background-color: white;
+    text-decoration: none; 
+}
+.bi{
+    color: orange;
+}

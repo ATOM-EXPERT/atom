@@ -1,0 +1,65 @@
+.lil{
+    display: inline;
+    font-size: 14px;
+    margin: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+
+}
+.add{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.style{
+    color: orange;
+    font-style: normal;
+    font-size: 65px;
+    text-align: center;
+}
+.fornav{
+    background: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+h6{
+     color: orange;
+     font-size: 20px;
+}
+button{
+    background: orange;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;           
+}
+.img{
+    margin: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+.par{
+    text-align: left;
+    font-size: 23px;
+}
+.bag{
+    margin: 10px;
+    padding: 75px;
+    width: 900px;
+}
+h1{
+    font-size: 65px;
+}
+.bi{
+    color: orange;
+}

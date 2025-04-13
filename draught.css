@@ -1,6 +1,7 @@
 table{
     border:  groove, gold;
     box-shadow: black;
+    width: 50px;
 }
 .black{
     background: black;
@@ -14,4 +15,50 @@ table{
     width:300px;
     background: red;
     margin: 5px;
+}
+.item{
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.lil{
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+}
+.butt{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: paleturquoise;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.fornav{
+    
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+}
+.home{
+    color: aqua;
+}
+.add{
+    display: inline;
+    color: gray;
+}
+.badd{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
 }
