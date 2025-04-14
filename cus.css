@@ -8,10 +8,16 @@ a{
 }
 .nav{
     display: flex;
+    background: red;
+    align-items: center;
+    /* justify-content: space-between; */
+
 }
 .cus{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .cust{
     background: gainsboro;
@@ -54,4 +60,8 @@ button{
 }
 .bi{
     color: orange;
+}
+.add{
+    padding: 0px;
+    background-color: blue;
 }

@@ -1,6 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+body{
+     margin: 0px;
+}
 .lil{
     display: inline;
-    font-size: 14px;
+    font-weight: bold;
     margin: 10px;
 }
 a{
@@ -9,33 +15,30 @@ a{
 }
 .nav{
     display: flex;
-    flex-direction: row;
-
-}
-.add{
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    /* background: red; */
+    align-items: center;
+    /* justify-content: space-between; */
 }
 .style{
-    color: orange;
+    color: orangered;
     font-style: normal;
     font-size: 65px;
     text-align: center;
 }
 .fornav{
-    background: gainsboro;
+    background: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-left: 45px;
+    margin-right: 35px;
 }
 h6{
-     color: orange;
+     color: orangered;
      font-size: 20px;
 }
-button{
+/* button{
     background: orange;
     border: none;
     color: white;
@@ -43,7 +46,7 @@ button{
     width: 100px;
     text-align: center;
     border-radius: 2px;           
-}
+} */
 .img{
     margin: 20px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
@@ -54,12 +57,141 @@ button{
 }
 .bag{
     margin: 10px;
-    padding: 75px;
+    padding: 10px;
     width: 900px;
+    
 }
 h1{
     font-size: 65px;
 }
-.bi{
-    color: orange;
+.add{
+    padding: 0px;
+    /* background-color: blue; */
+}
+.cus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.lil{
+    display: inline;
+    margin: 10px;
+}
+.nav{
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 5px;
+    
+}
+.cus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+.cust{
+    background: white;
+    text-align: center;
+}
+.bad{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0px auto;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.badd{
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin:  10px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sub{
+    text-align: center;
+}
+/* .bold{
+    font-size: 25px;
+} */
+/* .pil{
+    width: 250px;
+} */
+button{
+    background-color: orangered;
+    border: none;
+    padding: 20px;
+    color: white;
+    border-radius: 2px;
+}
+.in{
+    background-color: white;
+    text-decoration: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 5px;
+}
+.ic{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.add{
+    padding: 0px;
+    /* background-color: blue; */
+}
+.p{
+    font-weight: bold;
+}
+.ad{
+    color: orangered;
+}
+.our{
+
+    font-size: 40px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    color: orangered;
+    padding-bottom: 10px;
+}
+input{
+    border: none;
+}
+.s{
+    padding: 7px;
+    border-radius: 5px;
+}
+.buy{
+    padding: 10px;
+}
+.div{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
 }
