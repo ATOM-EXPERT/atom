@@ -1,0 +1,151 @@
+*{
+    font-family: sans-serif;
+}
+
+.bad{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.list{
+    list-style: none;
+}
+.lil{
+    display: inline-block;
+}
+
+.purp{
+    background: purple;
+}
+
+h6{
+    background: gold;
+    width: fit-content;
+    margin-left: 50px;
+    font-size: 20px;
+} 
+
+.well{
+    border-left: 5px solid gold;
+    margin-left: 50px;
+}
+
+.p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.span{
+    color: red;
+}
+
+.your{
+    margin-left: 50px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0px auto;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.log{
+    border: 10px solid purple;
+    border-bottom: 50px solid purple;
+    padding-top: 10px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    margin:  10px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    border-color: purple;
+    background-color: gold;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.dis{
+    background: purple;
+    border: 10px solid purple;
+    padding-top: 10px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin:  10px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 900px;
+    font-size: 25px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+.visit{}
+.please{
+    color: gold;
+    border-top: 2px solid gold ;
+}
+.span{
+    color: gold;
+}
+.gain{
+    background: gainsboro;
+    padding-top: 10px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin:  10px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.put{
+    background: gold;
+    text-align: center;
+}
+
+.where{
+    color: blue;
+}
+
+.open{
+    color: blue;
+}
+
+.tel{
+    color: blue;
+}
+
+.base{
+    background: gray;
+    text-align: center;
+}

@@ -1,3 +1,42 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
+li{
+    color: blue;
+}
+.parent{
+    background: red;
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+}
+.dropelement{
+    padding: 0px;
+    list-style-type: none;
+    background: yellow;
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+}
+.dropelement li{
+    padding: 5px;
+}
+.parent:hover .dropelement{
+    visibility: visible;
+}
+.parent:hover li:hover{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+}
+
 .badd{
     padding: 5px;
     margin: 5px;
@@ -35,7 +74,6 @@
 .nav{
     background: greenyellow;
     text-align: center;
-    
 }
 h4{
     color: black;
