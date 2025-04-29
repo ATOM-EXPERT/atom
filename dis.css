@@ -1,17 +1,17 @@
-.list{
+/* .list{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
     background-color: red;
-}
-a{
+} */
+/* a{
     text-decoration: none;
-}
-li{
+} */
+/* li{
     color: blue;
-}
-.parent{
+} */
+/* .parent{
     background: red;
     list-style-type: none;
     padding: 0px;
@@ -35,7 +35,7 @@ li{
     color: white;
     background-color: blue;
     font-size: 30px;
-}
+} */
 
 .item{
     /* display: inline-block; */
@@ -58,14 +58,14 @@ li{
     border: none;
     border-radius: 5px;
 }
-.fornav{
+/* .fornav{
     
     background: blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+} */
 a{
     color: white;
     text-decoration: none;
@@ -77,4 +77,61 @@ a{
 .add{
     display: inline;
     color: gray;
+}
+.fornav{
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.lil{
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    text-decoration: none;
+}
+ul{
+    color: blue;
+    
+}
+.drop{
+    display: inline-block;
+}
+.parent{
+    background: blue;
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+    color: white;
+}
+.dropelement{
+    padding: 0px;
+    list-style-type: none;
+    background: blue;
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+}
+.dropelement li{
+    padding: 15px;
+}
+.parent:hover .dropelement{
+    visibility: visible;
+}
+.parent:hover li:hover{
+    color: white;
+    background-color: black;
 }
