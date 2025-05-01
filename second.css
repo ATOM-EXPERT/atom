@@ -86,7 +86,7 @@ ul{
     width: 200px;
 }
 .dropelement li{
-    padding: 15px;
+    /* padding: 5px; */
 }
 .parent:hover .dropelement{
     visibility: visible;
@@ -94,6 +94,7 @@ ul{
 .parent:hover li:hover{
     color: white;
     background-color: black;
+    /* font-size: 30px; */
 }
 
 /* a:link{

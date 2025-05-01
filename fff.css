@@ -1,66 +1,53 @@
-.faint{
-    height:50px;
-    width:45px;
-    margin-left: 80px;
-    /* margin-bottom: 60px; */
-}
-.ola{
-    @media screen {
-        font-size: 10px;
-        max-width:min-content;
-        min-width:max-content;
-        /* max-height: min-content;
-        min-height: min-content; */
-    }
-    /* margin: px 0px; */
-    /* padding-bottom: 2px; */
-    /* justify-content: flex-end; */
+.fornav{
     
-}
-.dataa{
-    width: 20px;
-    margin-top: 5px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
-.comb{
+    background: blue;
     display: flex;
-    flex-direction:row;
-    /* align-items:center; */
-    list-style-type:none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.lil{
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    text-decoration: none;
+}
+ul{
+    color: blue;
     
-    justify-content:center;
-}
-.combin{
-    font-size: 10px;
-    margin-right: 50px;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-}
-.combi{
-    font-size: 10px;
-    margin: 0px 10px;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 .drop{
     display: inline-block;
 }
 .parent{
-    background: white;
+    background: blue;
     list-style-type: none;
     padding: 0px;
     width: 200px;
-    color: blue;
+    color: white;
 }
 .dropelement{
     padding: 0px;
     list-style-type: none;
-    background: red;
+    background: blue;
     visibility: hidden;
     position: absolute;
     width: 200px;
 }
 .dropelement li{
-    padding: 15px;
+    /* padding: 5px; */
 }
 .parent:hover .dropelement{
     visibility: visible;
@@ -68,6 +55,13 @@
 .parent:hover li:hover{
     color: white;
     background-color: black;
+    /* font-size: 30px; */
+}
+.item{
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 5px;
+    color: white;
 }
 .dat{
     background-color: purple;
